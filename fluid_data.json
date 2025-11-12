@@ -1,0 +1,925 @@
+{
+  "Air Bubbles": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 16.92
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 22.97
+      }
+    ],
+    "DensityAt15C": 1.225
+  },
+  "ATF: MD-3, QUATROSYN": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 34.1
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 7.0
+      }
+    ],
+    "DensityAt15C": 848.0
+  },
+  "Castrol TranSyd Synthetic": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 38.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 7.4
+      }
+    ],
+    "DensityAt15C": 848.0
+  },
+  "Cenex MV46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 45.2
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 7.9
+      }
+    ],
+    "DensityAt15C": 880.0
+  },
+  "Shell Tellus S3 VG46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.8
+      }
+    ],
+    "DensityAt15C": 865.0
+  },
+  "CNH MAT3530 Biodegradable HV46 Full Syn": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 8.0
+      }
+    ],
+    "DensityAt15C": 866.0
+  },
+  "Phillips 66 - 85 W-140": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 336.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 25.0
+      }
+    ],
+    "DensityAt15C": 896.0
+  },
+  "Weiler ISO48-68 Multiviscosity": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 38.0
+      },
+      {
+        "temperature": 343.15,
+        "kinematicViscosity": 8.9
+      }
+    ],
+    "DensityAt15C": 871.14
+  },
+  "MAT3552- Hy-tran\u00ae - Premium Hydraulic Transmission": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 61.38
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.3
+      }
+    ],
+    "DensityAt15C": 873.0
+  },
+  "JD Hy-Gard J20C ": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 38.4
+      },
+      {
+        "temperature": 343.15,
+        "kinematicViscosity": 13.4
+      }
+    ],
+    "DensityAt15C": 860.0
+  },
+  "CAT ELC 50-50 Water Glycol": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 2.2
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 0.8
+      }
+    ],
+    "DensityAt15C": 1070.1
+  },
+  "Petro Canada Hydrex AW 46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.4
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.9
+      }
+    ],
+    "DensityAt15C": 866.0
+  },
+  "Shell Water-Glycol S2 C": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 353.15,
+        "kinematicViscosity": 14.7
+      }
+    ],
+    "DensityAt15C": 1080.0
+  },
+  "Shell Tellus S2 MX 46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.9
+      }
+    ],
+    "DensityAt15C": 856.0
+  },
+  "Petrolic 32": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 32.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.34
+      }
+    ],
+    "DensityAt15C": 873.0
+  },
+  "CNH HV68 - MAT3530-C": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 68.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 11.0
+      }
+    ],
+    "DensityAt15C": 860.0
+  },
+  "Shell Tellus S2 VX 68": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 68.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 10.5
+      }
+    ],
+    "DensityAt15C": 860.0
+  },
+  "Coastal Premium AW68": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 68.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 8.9
+      }
+    ],
+    "DensityAt15C": 884.0
+  },
+  "FS Hydraulic MV ISO68": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 68.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 11.3
+      }
+    ],
+    "DensityAt15C": 850.77
+  },
+  "Shell Omala S4 WE 320": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 320.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 52.7
+      }
+    ],
+    "DensityAt15C": 1069.0
+  },
+  "Mobil DTE 10 Excel 46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 45.6
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 8.45
+      }
+    ],
+    "DensityAt15C": 850.2
+  },
+  "No-Tox Belray 1000": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 1000.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 84.1
+      }
+    ],
+    "DensityAt15C": 859.0
+  },
+  "Hydra Oil ISO VG46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.8
+      }
+    ],
+    "DensityAt15C": 874.0
+  },
+  "ISO VG 46 Schaeffer's Extreme": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 43.5
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.3
+      }
+    ],
+    "DensityAt15C": 880.0
+  },
+  "Water-Glycol 40% Water": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 39.3
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 8.5
+      }
+    ],
+    "DensityAt15C": 1078.44
+  },
+  "Aeroshell Fluid 41": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 14.3
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 5.3
+      }
+    ],
+    "DensityAt15C": 860.0
+  },
+  "Equivis ISO 46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 8.4
+      }
+    ],
+    "DensityAt15C": 874.0
+  },
+  "Shell Tellus S3 M32": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 32.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 5.5
+      }
+    ],
+    "DensityAt15C": 855.0
+  },
+  "Mobil DTE 25 ISO VG46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 44.2
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.7
+      }
+    ],
+    "DensityAt15C": 860.0
+  },
+  "ISO VG57": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 57.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.0
+      }
+    ],
+    "DensityAt15C": 888.0
+  },
+  "Petro-Canada Dexron_VI": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 29.8
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.0
+      }
+    ],
+    "DensityAt15C": 846.0
+  },
+  "Bel Ray Premium MW ISOVG 32": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 32.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 5.4
+      }
+    ],
+    "DensityAt15C": 860.8
+  },
+  "Shell Spirax S4 TXM": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 60.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.4
+      }
+    ],
+    "DensityAt15C": 882.0
+  },
+  "Versadrill ISOVG32 Chart": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 32.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 5.5
+      }
+    ],
+    "DensityAt15C": 870.0
+  },
+  "Megaflow AW ISO VG46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.8
+      }
+    ],
+    "DensityAt15C": 870.0
+  },
+  "Nuto H 68": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 63.3
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 8.3
+      }
+    ],
+    "DensityAt15C": 882.0
+  },
+  "Rando HD ISO VG 46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.76
+      }
+    ],
+    "DensityAt15C": 863.2
+  },
+  "Shell Tellus S2 ISO VG46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 7.9
+      }
+    ],
+    "DensityAt15C": 872.0
+  },
+  "Chevron Hydraulic Oil 5606": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 14.63
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 5.372
+      }
+    ],
+    "DensityAt15C": 867.6
+  },
+  "CAT SAE 10W ISO VG32": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 39.1
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.1
+      }
+    ],
+    "DensityAt15C": 877.0
+  },
+  "10W-30 Standard": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 69.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 11.0
+      }
+    ],
+    "DensityAt15C": 865.0
+  },
+  "Mobil DTE Medium ISO VG46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 44.5
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.9
+      }
+    ],
+    "DensityAt15C": 860.0
+  },
+  "HLP 150 plus 32": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 298.15,
+        "kinematicViscosity": 271.0
+      },
+      {
+        "temperature": 343.15,
+        "kinematicViscosity": 30.65
+      }
+    ],
+    "DensityAt15C": 887.0
+  },
+  "JD Hydrau": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 68.2
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 11.3
+      }
+    ],
+    "DensityAt15C": 872.0
+  },
+  "JD Hydrau XR": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 43.1
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 10.4
+      }
+    ],
+    "DensityAt15C": 847.0
+  },
+  "HLP 46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 216.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 26.0
+      }
+    ],
+    "DensityAt15C": 892.7
+  },
+  "ISO VG 320 PAO": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 37.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 3.7
+      }
+    ],
+    "DensityAt15C": 870.0
+  },
+  "Ambra Multi G": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 70.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 10.1
+      }
+    ],
+    "DensityAt15C": 887.0
+  },
+  "CAT HYDO 10": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 42.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.7
+      }
+    ],
+    "DensityAt15C": 874.7
+  },
+  "ISO VG 32": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 32.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 5.446
+      }
+    ],
+    "DensityAt15C": 875.0
+  },
+  "Chevron 1000 THF": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 58.4
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.5
+      }
+    ],
+    "DensityAt15C": 865.6
+  },
+  "LucasOil": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 60.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.0
+      }
+    ],
+    "DensityAt15C": 888.3
+  },
+  "BOBCAT Hydraulic-Hydrostatic": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 7.8
+      }
+    ],
+    "DensityAt15C": 879.0
+  },
+  "Mobilfluid 424": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 55.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.6
+      }
+    ],
+    "DensityAt15C": 884.0
+  },
+  "Phillips 66 Megaflow HVI 22": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 22.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 4.3
+      }
+    ],
+    "DensityAt15C": 860.0
+  },
+  "Shell Tellus S2 MX 68": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 68.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 8.9
+      }
+    ],
+    "DensityAt15C": 860.0
+  },
+  "JD Hy-Gard": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 59.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.4
+      }
+    ],
+    "DensityAt15C": 890.0
+  },
+  "Mobil DTE10 Excel 32": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 32.7
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.63
+      }
+    ],
+    "DensityAt15C": 843.8
+  },
+  "Nuto H 46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 46.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.7
+      }
+    ],
+    "DensityAt15C": 876.0
+  },
+  "CNH MAT 3525": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 56.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.7
+      }
+    ],
+    "DensityAt15C": 883.4
+  },
+  "Pentosin CHF 202": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 19.3
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.1
+      }
+    ],
+    "DensityAt15C": 840.0
+  },
+  "Hydrex MV60": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 58.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 8.85
+      }
+    ],
+    "DensityAt15C": 863.9
+  },
+  "Fyrquel EHC Plus ISO 46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 310.95,
+        "kinematicViscosity": 47.0
+      },
+      {
+        "temperature": 372.04999999999995,
+        "kinematicViscosity": 5.0
+      }
+    ],
+    "DensityAt15C": 1143.8
+  },
+  "ISO VG 46": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 45.92
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 6.848
+      }
+    ],
+    "DensityAt15C": 875.3
+  },
+  "ISO AW 32": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 30.4
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 5.2
+      }
+    ],
+    "DensityAt15C": 862.279
+  },
+  "Cursa Medium": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 45.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.3
+      }
+    ],
+    "DensityAt15C": 857.576
+  },
+  "PROMAX Premium Universal Tractor Hydraulic Fluid CAM2": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 58.36
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.63
+      }
+    ],
+    "DensityAt15C": 850.0
+  },
+  "CNH MAT 3540": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 60.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 9.0
+      }
+    ],
+    "DensityAt15C": 880.0
+  },
+  "CNH MAT 3509 Excavator Fluid": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 47.0
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 8.8
+      }
+    ],
+    "DensityAt15C": 880.0
+  },
+  "SAE 10W": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 67.5
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 10.7
+      }
+    ],
+    "DensityAt15C": 875.0
+  },
+    "ISO VG 68": {
+    "Kinematic Viscosity Limits": [
+      {
+        "temperature": 313.15,
+        "kinematicViscosity": 68.08
+      },
+      {
+        "temperature": 373.15,
+        "kinematicViscosity": 8.776
+      }
+    ],
+    "DensityAt15C": 881.0
+  }
+}
