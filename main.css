@@ -1,0 +1,216 @@
+/* Global Variables for Color Scheme and Spacing */
+:root {
+  --gap: 8px;
+  --primary-color: #2c3e50;
+  --success-color: #2d40986c;
+  --success-hover: #30498a;
+  --bg-main: #575757;  
+  --bg-second: #323236;
+
+  --panel-left-bg: #717171;
+  --panel-right-bg: #0b0b0b;
+  --box-bg: #f9f9f9;
+  --header-bg: #424242;
+  --input-bg: #fff;
+  --text-primary: #f4f4f4;
+  --text-light: #ddd;
+  --shadow-light: rgba(0, 0, 0, 0.08);
+  --shadow-medium: rgba(0, 0, 0, 0.1);
+  --shadow-dark: rgba(0, 0, 0, 0.2);
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+  
+  --table-odd: #3f3f43;
+  --table-even: #323236;
+
+  --chart-border: #fff;
+  --preview-bg: #323236;
+  --chart-text: #f0f0f0;
+  --chart-grid: rgba(225,225,225,0.15);
+
+  /* Additional colors from CSS */
+  --gray-light: #888;
+  --gray-dark: #333;
+  --gray-darker: #111;
+  --white: #fff;
+  --black: #000;
+
+  /* Colors from JS line chart */
+    --red: #d20004;
+  --red-dark: #911215;
+  --red-rgb: 255, 0, 0;
+  --blue-rgb: 0, 0, 200;
+
+  --black-rgb: 0, 0, 0;
+  --chart-text-light: #f0f0f0;
+  --chart-axis-text: #fff;
+  --chart-tooltip-bg: rgba(0, 0, 0, 0.7);
+
+  /* Colors from JS bar chart */
+  --oil-rgb: 255, 159, 64;
+  --material-rgb: 125, 125, 125;
+  --air-rgb: 0, 62, 204;
+  /* Colors from 3D visualizer */
+  --tank-main-color: #a6a6a6;
+  --tank-half-color: #ff8c00;
+  --tank-cylinder-color: #808080;
+  --label-text-color: #000000;
+  --light-color: #ffffff;
+
+  /* font-family: 'Helvetica', sans-serif; */
+}
+
+.roboto-flex-font {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
+/* Base Layout Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: visible;
+  color:var(--text-primary);
+  background-color: var(--bg-main);
+    font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+    scroll-behavior: smooth;
+      scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+#loading-screen.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.loader {
+  border: 6px solid #333;
+  border-top: 6px solid var(--red-dark);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px; /* space between spinner and text */
+}
+
+#loading-screen h4 {
+  color: var(--text-primary);
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+/* spinning animation */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+select {
+  flex: 1;
+  padding: 8px 10px;
+  font-size: 1rem;
+  font-weight: 100;
+  border-radius: 6px;
+  background: var(--input-bg);
+  box-shadow: 0 1px 4px var(--shadow-light);
+  transition: box-shadow 0.2s ease;
+}
+input {
+  flex: 1;
+  padding: 8px 10px;
+  font-size: 1rem;
+  font-weight: 100;
+  border-radius: 6px;
+  /* background: var(--input-bg); */
+  box-shadow: 0 1px 4px var(--shadow-light);
+  transition: box-shadow 0.2s ease;
+}
+main{
+    margin-top:20px;
+          padding: 16px;
+
+}
+
+.border{
+    border-radius: 6px;
+    background: var(--bg-second);
+    border: var(--chart-border) 1px solid;
+    box-shadow: 0 1px 4px var(--shadow-light);
+      padding: 16px;
+  margin-bottom: 16px;
+}
+button {
+    background: none;
+    color: var(--text-primary);
+    border:  var(--red) 1px solid;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  button:hover {
+        background: var( --red-dark);
+
+  }
+  .fade-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-hidden {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}

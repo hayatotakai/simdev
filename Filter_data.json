@@ -1,0 +1,3813 @@
+{
+  "data": {
+    "Series":{ 
+      "RKT ": {
+    "filters": {
+      "RKT 170": {
+        "maximum_flow_rate": 170,
+        "element": {
+          "UMC-0010-117-X509-S-N-RT": {
+            "area [cm^2]": 5255.0,
+            "link": "UMC-0010-117-X509_13584_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 30.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 37.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 230.9
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "ULP-0010-117-X509-S-N-RT": {
+            "area [cm^2]": 7117.0,
+            "link": "ULP-0010-117-X509_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 64.9
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 78.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 486.2
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "UMC-0020-117-X509-S-N-RT": {
+            "area [cm^2]": 5255.0,
+            "link": "UMC-0020-117-X509_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 53.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 64.8
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 429.6
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "ULP-0025-117-X509-S-N-RT": {
+            "area [cm^2]": 7117.0,
+            "link": "ULP-0025-117-X509_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 140.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 171.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1111.1
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          }
+        }
+      },
+      "RKT 230": {
+        "maximum_flow_rate": 230,
+        "element": {
+          "UMC-0010-117-X512-S-N-RT": {
+            "area [cm^2]": 6942.0,
+            "link": "UMC-0010-117-X512_13584_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 40.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 49.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 305.1
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "ULP-0010-117-X512-S-N-RT": {
+            "area [cm^2]": 9403.0,
+            "link": "ULP-0010-117-X512_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 85.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 104.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 642.4
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "UMC-0020-117-X512-S-N-RT": {
+            "area [cm^2]": 6942.0,
+            "link": "UMC-0020-117-X512_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 70.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 85.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 567.6
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "ULP-0025-117-X512-S-N-RT": {
+            "area [cm^2]": 9403.0,
+            "link": "ULP-0025-117-X512_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 185.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 226.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1467.8
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          }
+        }
+      },
+      "RKT 300": {
+        "maximum_flow_rate": 300,
+        "element": {
+          "UMC-0010-117-X516-S-N-RT": {
+            "area [cm^2]": 9280.0,
+            "link": "UMC-0010-117-X516_13584_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 54.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 66.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 407.8
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "ULP-0010-117-X516-S-N-RT": {
+            "area [cm^2]": 12569.0,
+            "link": "ULP-0010-117-X516_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 114.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 139.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 858.7
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "UMC-0020-117-X516-S-N-RT": {
+            "area [cm^2]": 9280.0,
+            "link": "UMC-0020-117-X516_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 93.6
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 114.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 758.7
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "ULP-0025-117-X516-S-N-RT": {
+            "area [cm^2]": 12569.0,
+            "link": "ULP-0025-117-X516_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 247.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 302.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1962.2
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          }
+        }
+      },
+      "RKT 400": {
+        "maximum_flow_rate": 400,
+        "element": {
+          "UMC-0003-117-X520-S-N-RT": {
+            "area [cm^2]": 12028.0,
+            "link": "UMC-0003-117-X520_12504_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 14.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 17.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 177.2
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "UMC-0005-117-X520-S-N-RT": {
+            "area [cm^2]": 12028.0,
+            "link": "UMC-0005-117-X520_12699_dp-Q-Formular.xlsm",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 28.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 35.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 258.8
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "UMC-0010-117-X520-S-N-RT": {
+            "area [cm^2]": 12028.0,
+            "link": "UMC-0010-117-X520_13584_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 70.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 85.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 528.6
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "ULP-0010-117-X520-S-N-RT": {
+            "area [cm^2]": 16291.0,
+            "link": "ULP-0010-117-X520_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 148.6
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 180.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1113.0
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "UMC-0020-117-X520-S-N-RT": {
+            "area [cm^2]": 12028.0,
+            "link": "UMC-0020-117-X520_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 121.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 148.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 983.4
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          },
+          "ULP-0025-117-X520-S-N-RT": {
+            "area [cm^2]": 16291.0,
+            "link": "ULP-0025-117-X520_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 320.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 391.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2543.2
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.003
+          }
+        }
+      },
+      "RKT 310": {
+        "maximum_flow_rate": 310,
+        "element": {
+          "UMC-0010-120-XZ11-Q-P-RT": {
+            "area [cm^2]": 9117.0,
+            "link": "UMC-0010-120-XZ11_10423_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 41.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 51.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 376.6
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          },
+          "ULP-0010-120-XZ11-Q-P-RT": {
+            "area [cm^2]": 9117.0,
+            "link": "ULP-0010-120-XZ11_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 83.2
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 101.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 622.9
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          },
+          "UMC-0020-120-XZ11-Q-P-RT": {
+            "area [cm^2]": 9117.0,
+            "link": "UMC-0020-120-XZ11_10642_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 92.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 114.1
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 788.7
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          },
+          "ULP-0025-120-XZ11-Q-P-RT": {
+            "area [cm^2]": 9117.0,
+            "link": "ULP-0025-120-XZ11_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 192.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 234.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1523.1
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          }
+        }
+      },
+      "RKT 410": {
+        "maximum_flow_rate": 410,
+        "element": {
+          "UMC-0010-120-XZ14-Q-P-RT": {
+            "area [cm^2]": 12494.0,
+            "link": "UMC-0010-120-XZ14_10423_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 57.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 70.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 516.1
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          },
+          "ULP-0010-120-XZ14-Q-P-RT": {
+            "area [cm^2]": 12494.0,
+            "link": "ULP-0010-120-XZ14_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 114.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 138.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 853.6
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          },
+          "UMC-0020-120-XZ14-Q-P-RT": {
+            "area [cm^2]": 12494.0,
+            "link": "UMC-0020-120-XZ14_10642_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 127.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 156.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1080.8
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          },
+          "ULP-0025-120-XZ14-Q-P-RT": {
+            "area [cm^2]": 12494.0,
+            "link": "ULP-0025-120-XZ14_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 263.2
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 321.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2087.2
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          }
+        }
+      },
+      "RKT 500": {
+        "maximum_flow_rate": 500,
+        "element": {
+          "UMC-0010-120-XZ18-Q-P-RT": {
+            "area [cm^2]": 15533.0,
+            "link": "UMC-0010-120-XZ18_10423_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 71.2
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 88.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 641.6
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          },
+          "ULP-0010-120-XZ18-Q-P-RT": {
+            "area [cm^2]": 15533.0,
+            "link": "ULP-0010-120-XZ18_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 141.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 172.1
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1081.2
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          },
+          "UMC-0020-120-XZ18-Q-P-RT": {
+            "area [cm^2]": 15533.0,
+            "link": "UMC-0020-120-XZ18_10642_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 157.9
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 194.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1343.7
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          },
+          "ULP-0025-120-XZ18-Q-P-RT": {
+            "area [cm^2]": 15533.0,
+            "link": "ULP-0025-120-XZ18_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 327.2
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 399.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2595.0
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.002
+          }
+        }
+      },
+      "RKT 600": {
+        "maximum_flow_rate": 600,
+        "element": {
+          "UMC-0010-152-X218-S-N-RT": {
+            "area [cm^2]": 15039.0,
+            "link": "UMC-0010-152-X218_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 138.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 169.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1090.8
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "ULP-0010-152-X218-S-N-RT": {
+            "area [cm^2]": 24537.0,
+            "link": "ULP-0010-152-X218_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 262.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 322.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2193.9
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "UMC-0020-152-X218-S-N-RT": {
+            "area [cm^2]": 15039.0,
+            "link": "UMC-0020-152-X218_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 192.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 234.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1532.1
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "ULP-0025-152-X218-S-N-RT": {
+            "area [cm^2]": 24537.0,
+            "link": "ULP-0025-152-X218_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 331.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 409.1
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2860.5
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          }
+        }
+      },
+      "RKT 800": {
+        "maximum_flow_rate": 800,
+        "element": {
+          "UMC-0003-152-X225-S-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0003-152-X225_12504_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 48.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 61.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 612.9
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "UMC-0005-152-X225-S-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0005-152-X225_12699_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 99.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 123.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 895.2
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "UMC-0010-152-X225-S-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0010-152-X225_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 201.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 246.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1589.7
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "ULP-0010-152-X225-S-N-RT": {
+            "area [cm^2]": 35758.0,
+            "link": "ULP-0010-152-X225_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 382.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 469.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 3197.2
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "UMC-0020-152-X225-S-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0020-152-X225_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 280.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 341.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2232.7
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "ULP-0025-152-X225-S-N-RT": {
+            "area [cm^2]": 35758.0,
+            "link": "ULP-0025-152-X225_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 482.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 596.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 4168.8
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          }
+        }
+      },
+      "RKT 1200": {
+        "maximum_flow_rate": 1200,
+        "element": {
+          "UMC-0010-152-X231-S-N-RT": {
+            "area [cm^2]": 27404.0,
+            "link": "UMC-0010-152-X231_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 252.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 307.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1987.8
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "ULP-0010-152-X231-S-N-RT": {
+            "area [cm^2]": 44712.0,
+            "link": "ULP-0010-152-X231_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 478.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 587.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 3997.8
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "UMC-0020-152-X231-S-N-RT": {
+            "area [cm^2]": 27404.0,
+            "link": "UMC-0020-152-X231_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 351.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 427.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2791.8
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          },
+          "ULP-0025-152-X231-S-N-RT": {
+            "area [cm^2]": 44712.0,
+            "link": "ULP-0025-152-X231_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 603.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 745.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 5212.7
+              }
+            ],
+            "AX2": 5e-05,
+            "BX": 0.0018
+          }
+        }
+      }}},
+       "RFT ":{
+    "filters": {
+      "RFT 170": {
+        "maximum_flow_rate": 170,
+        "element": {
+          "UMC-0010-117-X509-S-N-RT": {
+            "area [cm^2]": 5255.0,
+            "link": "UMC-0010-117-X509_13584_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 30.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 37.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 230.9
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "ULP-0010-117-X509-S-N-RT": {
+            "area [cm^2]": 7117.0,
+            "link": "ULP-0010-117-X509_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 64.9
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 78.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 486.2
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "UMC-0020-117-X509-S-N-RT": {
+            "area [cm^2]": 5255.0,
+            "link": "UMC-0020-117-X509_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 53.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 64.8
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 429.6
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "ULP-0025-117-X509-S-N-RT": {
+            "area [cm^2]": 7117.0,
+            "link": "ULP-0025-117-X509_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 140.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 171.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1111.1
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          }
+        }
+      },
+      "RFT 230": {
+        "maximum_flow_rate": 230,
+        "element": {
+          "UMC-0010-117-X512-S-N-RT": {
+            "area [cm^2]": 6942.0,
+            "link": "UMC-0010-117-X512_13584_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 40.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 49.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 305.1
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "ULP-0010-117-X512-S-N-RT": {
+            "area [cm^2]": 9403.0,
+            "link": "ULP-0010-117-X512_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 85.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 104.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 642.4
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "UMC-0020-117-X512-S-N-RT": {
+            "area [cm^2]": 6942.0,
+            "link": "UMC-0020-117-X512_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 70.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 85.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 567.6
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "ULP-0025-117-X512-S-N-RT": {
+            "area [cm^2]": 9403.0,
+            "link": "ULP-0025-117-X512_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 185.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 226.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1467.8
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          }
+        }
+      },
+      "RFT 300": {
+        "maximum_flow_rate": 300,
+        "element": {
+          "UMC-0010-117-X516-S-N-RT": {
+            "area [cm^2]": 9280.0,
+            "link": "UMC-0010-117-X516_13584_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 54.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 66.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 407.8
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "ULP-0010-117-X516-S-N-RT": {
+            "area [cm^2]": 12569.0,
+            "link": "ULP-0010-117-X516_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 114.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 139.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 858.7
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "UMC-0020-117-X516-S-N-RT": {
+            "area [cm^2]": 9280.0,
+            "link": "UMC-0020-117-X516_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 93.6
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 114.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 758.7
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "ULP-0025-117-X516-S-N-RT": {
+            "area [cm^2]": 12569.0,
+            "link": "ULP-0025-117-X516_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 247.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 302.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1962.2
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          }
+        }
+      },
+      "RFT 400": {
+        "maximum_flow_rate": 400,
+        "element": {
+          "UMC-0003-117-X520-S-N-RT": {
+            "area [cm^2]": 12028.0,
+            "link": "UMC-0003-117-X520_12504_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 14.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 17.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 177.2
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "UMC-0005-117-X520-S-N-RT": {
+            "area [cm^2]": 12028.0,
+            "link": "UMC-0005-117-X520_12699_dp-Q-Formular.xlsm",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 28.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 35.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 258.8
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "UMC-0010-117-X520-S-N-RT": {
+            "area [cm^2]": 12028.0,
+            "link": "UMC-0010-117-X520_13584_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 70.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 85.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 528.6
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "ULP-0010-117-X520-S-N-RT": {
+            "area [cm^2]": 16291.0,
+            "link": "ULP-0010-117-X520_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 148.6
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 180.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1113.0
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "UMC-0020-117-X520-S-N-RT": {
+            "area [cm^2]": 12028.0,
+            "link": "UMC-0020-117-X520_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 121.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 148.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 983.4
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          },
+          "ULP-0025-117-X520-S-N-RT": {
+            "area [cm^2]": 16291.0,
+            "link": "ULP-0025-117-X520_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 320.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 391.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2543.2
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.003
+          }
+        }
+      },
+      "RFT 310": {
+        "maximum_flow_rate": 310,
+        "element": {
+          "UMC-0010-120-XZ11-Q-P-RT": {
+            "area [cm^2]": 9117.0,
+            "link": "UMC-0010-120-XZ11_10423_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 41.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 51.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 376.6
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          },
+          "ULP-0010-120-XZ11-Q-P-RT": {
+            "area [cm^2]": 9117.0,
+            "link": "ULP-0010-120-XZ11_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 83.2
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 101.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 622.9
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          },
+          "UMC-0020-120-XZ11-Q-P-RT": {
+            "area [cm^2]": 9117.0,
+            "link": "UMC-0020-120-XZ11_10642_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 92.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 114.1
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 788.7
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          },
+          "ULP-0025-120-XZ11-Q-P-RT": {
+            "area [cm^2]": 9117.0,
+            "link": "ULP-0025-120-XZ11_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 192.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 234.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1523.1
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          }
+        }
+      },
+      "RFT 410": {
+        "maximum_flow_rate": 410,
+        "element": {
+          "UMC-0010-120-XZ14-Q-P-RT": {
+            "area [cm^2]": 12494.0,
+            "link": "UMC-0010-120-XZ14_10423_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 57.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 70.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 516.1
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          },
+          "ULP-0010-120-XZ14-Q-P-RT": {
+            "area [cm^2]": 12494.0,
+            "link": "ULP-0010-120-XZ14_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 114.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 138.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 853.6
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          },
+          "UMC-0020-120-XZ14-Q-P-RT": {
+            "area [cm^2]": 12494.0,
+            "link": "UMC-0020-120-XZ14_10642_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 127.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 156.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1080.8
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          },
+          "ULP-0025-120-XZ14-Q-P-RT": {
+            "area [cm^2]": 12494.0,
+            "link": "ULP-0025-120-XZ14_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 263.2
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 321.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2087.2
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          }
+        }
+      },
+      "RFT 500": {
+        "maximum_flow_rate": 500,
+        "element": {
+          "UMC-0010-120-XZ18-Q-P-RT": {
+            "area [cm^2]": 15533.0,
+            "link": "UMC-0010-120-XZ18_10423_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 71.2
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 88.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 641.6
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          },
+          "ULP-0010-120-XZ18-Q-P-RT": {
+            "area [cm^2]": 15533.0,
+            "link": "ULP-0010-120-XZ18_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 141.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 172.1
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1081.2
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          },
+          "UMC-0020-120-XZ18-Q-P-RT": {
+            "area [cm^2]": 15533.0,
+            "link": "UMC-0020-120-XZ18_10642_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 157.9
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 194.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1343.7
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          },
+          "ULP-0025-120-XZ18-Q-P-RT": {
+            "area [cm^2]": 15533.0,
+            "link": "ULP-0025-120-XZ18_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 327.2
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 399.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2595.0
+              }
+            ],
+            "AX2": 0.0003,
+            "BX": 0.002
+          }
+        }
+      },
+      "RFT 600": {
+        "maximum_flow_rate": 600,
+        "element": {
+          "UMC-0010-152-X218-S-N-RT": {
+            "area [cm^2]": 15039.0,
+            "link": "UMC-0010-152-X218_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 138.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 169.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1090.8
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "ULP-0010-152-X218-S-N-RT": {
+            "area [cm^2]": 24537.0,
+            "link": "ULP-0010-152-X218_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 262.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 322.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2193.9
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "UMC-0020-152-X218-S-N-RT": {
+            "area [cm^2]": 15039.0,
+            "link": "UMC-0020-152-X218_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 192.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 234.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1532.1
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "ULP-0025-152-X218-S-N-RT": {
+            "area [cm^2]": 24537.0,
+            "link": "ULP-0025-152-X218_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 331.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 409.1
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2860.5
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          }
+        }
+      },
+      "RFT 800": {
+        "maximum_flow_rate": 800,
+        "element": {
+          "UMC-0003-152-X225-S-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0003-152-X225_12504_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 48.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 61.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 612.9
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "UMC-0005-152-X225-S-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0005-152-X225_12699_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 99.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 123.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 895.2
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "UMC-0010-152-X225-S-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0010-152-X225_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 201.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 246.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1589.7
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "ULP-0010-152-X225-S-N-RT": {
+            "area [cm^2]": 35758.0,
+            "link": "ULP-0010-152-X225_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 382.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 469.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 3197.2
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "UMC-0020-152-X225-S-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0020-152-X225_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 280.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 341.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2232.7
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "ULP-0025-152-X225-S-N-RT": {
+            "area [cm^2]": 35758.0,
+            "link": "ULP-0025-152-X225_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 482.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 596.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 4168.8
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          }
+        }
+      },
+      "RFT 1200": {
+        "maximum_flow_rate": 1200,
+        "element": {
+          "UMC-0010-152-X231-S-N-RT": {
+            "area [cm^2]": 27404.0,
+            "link": "UMC-0010-152-X231_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 252.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 307.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1987.8
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "ULP-0010-152-X231-S-N-RT": {
+            "area [cm^2]": 44712.0,
+            "link": "ULP-0010-152-X231_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 478.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 587.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 3997.8
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "UMC-0020-152-X231-S-N-RT": {
+            "area [cm^2]": 27404.0,
+            "link": "UMC-0020-152-X231_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 351.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 427.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2791.8
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          },
+          "ULP-0025-152-X231-S-N-RT": {
+            "area [cm^2]": 44712.0,
+            "link": "ULP-0025-152-X231_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 603.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 745.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 5212.7
+              }
+            ],
+            "AX2": 8e-05,
+            "BX": 0.002
+          }
+        }
+      },
+      "RFT 1800": {
+        "maximum_flow_rate": 1800,
+        "element": {
+          "UMC-0010-202-X235-S-N-RT": {
+            "area [cm^2]": 59735.0,
+            "link": "UMC-0010-202-X235_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 549.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 671.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 4332.9
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          },
+          "ULP-0010-202-X235-S-N-RT": {
+            "area [cm^2]": 83628.0,
+            "link": "ULP-0010-202-X235_15234_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 929.9
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 1146.8
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 8047.0
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          },
+          "UMC-0020-202-X235-S-N-RT": {
+            "area [cm^2]": 59735.0,
+            "link": "UMC-0020-202-X235_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 765.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 931.8
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 6085.5
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          },
+          "ULP-0025-202-X235-S-N-RT": {
+            "area [cm^2]": 83628.0,
+            "link": "ULP-0025-202-X235_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 1128.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 1394.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 9749.5
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          }
+        }
+      },
+      "RFT 2000": {
+        "maximum_flow_rate": 2000,
+        "element": {
+          "UMC-0010-202-X245-S-N-RT": {
+            "area [cm^2]": 76597.0,
+            "link": "UMC-0010-202-X245_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 704.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 860.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 5556.0
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          },
+          "ULP-0010-202-X245-S-N-RT": {
+            "area [cm^2]": 107235.0,
+            "link": "ULP-0010-202-X245_15234_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 1192.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 1470.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 10318.6
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          },
+          "UMC-0020-202-X245-S-N-RT": {
+            "area [cm^2]": 76597.0,
+            "link": "UMC-0020-202-X245_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 981.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 1194.8
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 7803.3
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          },
+          "ULP-0025-202-X245-S-N-RT": {
+            "area [cm^2]": 107235.0,
+            "link": "ULP-0025-202-X245_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 1446.9
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 1788.1
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 12501.7
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          }
+        }
+      },
+      "RFT 2400": {
+        "maximum_flow_rate": 2400,
+        "element": {
+          "UMC-0010-202-X246-S-N-RT": {
+            "area [cm^2]": 81759.0,
+            "link": "UMC-0010-202-X246_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 751.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 918.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 5930.4
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          },
+          "ULP-0010-202-X246-S-N-RT": {
+            "area [cm^2]": 133201.0,
+            "link": "ULP-0010-202-X246_15240_dp-Q-Formular_Helios.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 1307.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 1628.1
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 12530.7
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          },
+          "UMC-0020-202-X246-S-N-RT": {
+            "area [cm^2]": 81759.0,
+            "link": "UMC-0020-202-X246_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 1047.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 1275.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 8329.2
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          },
+          "ULP-0025-202-X246-S-N-RT": {
+            "area [cm^2]": 133201.0,
+            "link": "ULP-0025-202-X246_11079_dp-Q-Formular_Helios.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 1797.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 2221.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 15528.3
+              }
+            ],
+            "AX2": 3.8e-05,
+            "BX": 0.001
+          }
+        }
+      }}},
+       "RKB ":{
+    "filters": {
+      "RKB 600": {
+        "maximum_flow_rate": 600,
+        "element": {
+          "UMC-0010-152-XD18-S-N-RT": {
+            "area [cm^2]": 15039.0,
+            "link": "UMC-0010-152-X218_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 138.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 169.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1090.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0010-152-XD18-Q-N-RT": {
+            "area [cm^2]": 15039.0,
+            "link": "UMC-0010-152-X218_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 138.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 169.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1090.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0010-152-XF18-Q-N-RT": {
+            "area [cm^2]": 15039.0,
+            "link": "UMC-0010-152-X218_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 138.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 169.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1090.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0020-152-XD18-S-N-RT": {
+            "area [cm^2]": 15039.0,
+            "link": "UMC-0020-152-X218_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 192.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 234.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1532.1
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0020-152-XD18-Q-N-RT": {
+            "area [cm^2]": 15039.0,
+            "link": "UMC-0020-152-X218_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 192.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 234.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1532.1
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0020-152-XF18-Q-N-RT": {
+            "area [cm^2]": 15039.0,
+            "link": "UMC-0020-152-X218_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 192.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 234.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1532.1
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0010-152-XD18-S-N-RT": {
+            "area [cm^2]": 24537.0,
+            "link": "ULP-0010-152-X218_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 262.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 322.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2193.9
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0010-152-XD18-Q-N-RT": {
+            "area [cm^2]": 24537.0,
+            "link": "ULP-0010-152-X218_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 262.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 322.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2193.9
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0025-152-XD18-S-N-RT": {
+            "area [cm^2]": 24537.0,
+            "link": "ULP-0025-152-X218_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 331.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 409.1
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2860.5
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0025-152-XD18-Q-N-RT": {
+            "area [cm^2]": 24537.0,
+            "link": "ULP-0025-152-X218_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 331.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 409.1
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2860.5
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          }
+        }
+      },
+      "RKB 800": {
+        "maximum_flow_rate": 800,
+        "element": {
+          "UMC-0010-152-XD25-S-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0010-152-X225_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 201.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 246.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1589.7
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0010-152-XD25-Q-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0010-152-X225_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 201.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 246.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1589.7
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0010-152-XF25-Q-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0010-152-X225_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 201.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 246.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1589.7
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0020-152-XD25-S-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0020-152-X225_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 280.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 341.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2232.7
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0020-152-XD25-Q-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0020-152-X225_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 280.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 341.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2232.7
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0020-152-XF25-Q-N-RT": {
+            "area [cm^2]": 21916.0,
+            "link": "UMC-0020-152-X225_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 280.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 341.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2232.7
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0010-152-XD25-S-N-RT": {
+            "area [cm^2]": 35758.0,
+            "link": "ULP-0010-152-X225_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 382.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 469.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 3197.2
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0010-152-XD25-Q-N-RT": {
+            "area [cm^2]": 35758.0,
+            "link": "ULP-0010-152-X225_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 382.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 469.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 3197.2
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0025-152-XD25-S-N-RT": {
+            "area [cm^2]": 35758.0,
+            "link": "ULP-0025-152-X225_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 482.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 596.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 4168.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0025-152-XD25-Q-N-RT": {
+            "area [cm^2]": 35758.0,
+            "link": "ULP-0025-152-X225_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 482.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 596.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 4168.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          }
+        }
+      },
+      "RKB 1200": {
+        "maximum_flow_rate": 1200,
+        "element": {
+          "UMC-0010-152-XD31-S-N-RT": {
+            "area [cm^2]": 27404.0,
+            "link": "UMC-0010-152-X231_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 252.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 307.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1987.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0010-152-XD31-Q-N-RT": {
+            "area [cm^2]": 27404.0,
+            "link": "UMC-0010-152-X231_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 252.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 307.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1987.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0010-152-XF31-Q-N-RT": {
+            "area [cm^2]": 27404.0,
+            "link": "UMC-0010-152-X231_10890_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 252.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 307.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1987.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0020-152-XD31-S-N-RT": {
+            "area [cm^2]": 27404.0,
+            "link": "UMC-0020-152-X231_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 351.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 427.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2791.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0020-152-XD31-Q-N-RT": {
+            "area [cm^2]": 27404.0,
+            "link": "UMC-0020-152-X231_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 351.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 427.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2791.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "UMC-0020-152-XF31-Q-N-RT": {
+            "area [cm^2]": 27404.0,
+            "link": "UMC-0020-152-X231_07337_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 351.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 427.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2791.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0010-152-XD31-S-N-RT": {
+            "area [cm^2]": 44712.0,
+            "link": "ULP-0010-152-X231_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 478.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 587.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 3997.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0010-152-XD31-Q-N-RT": {
+            "area [cm^2]": 44712.0,
+            "link": "ULP-0010-152-X231_10101_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 478.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 587.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 3997.8
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0025-152-XD31-S-N-RT": {
+            "area [cm^2]": 44712.0,
+            "link": "ULP-0025-152-X231_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 603.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 745.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 5212.7
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          },
+          "ULP-0025-152-XD31-Q-N-RT": {
+            "area [cm^2]": 44712.0,
+            "link": "ULP-0025-152-X231_11079_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 603.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 745.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 5212.7
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0013
+          }
+        }
+      }}},
+       "RFB ":{
+    "filters": {
+      "RFB 170": {
+        "maximum_flow_rate": 170,
+        "element": {
+          "UMC-0010-101-X512-S-N-RT": {
+            "area [cm^2]": 4642.0,
+            "link": "UMC-0010-101-X512_12651_Dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 48.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 58.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 332.9
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.006
+          },
+          "ULP-0010-101-X512-S-N-RT": {
+            "area [cm^2]": 6788.0,
+            "link": "ULP-0010-101-X512_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 61.9
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 75.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 463.7
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.006
+          },
+          "UMC-0020-101-X512-S-N-RT": {
+            "area [cm^2]": 4642.0,
+            "link": "UMC-0020-101-X512_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 52.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 64.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 427.6
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.006
+          },
+          "ULP-0025-101-X512-S-N-RT": {
+            "area [cm^2]": 6788.0,
+            "link": "ULP-0025-101-X512_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 144.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 175.8
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1134.9
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.006
+          }
+        }
+      },
+      "RFB 300": {
+        "maximum_flow_rate": 300,
+        "element": {
+          "UMC-0010-101-X518-S-N-RT": {
+            "area [cm^2]": 7670.0,
+            "link": "UMC-0010-101-X518_12651_Dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 80.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 96.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 550.0
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.006
+          },
+          "ULP-0010-101-X518-S-N-RT": {
+            "area [cm^2]": 11212.0,
+            "link": "ULP-0010-101-X518_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 102.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 124.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 766.2
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.006
+          },
+          "UMC-0020-101-X518-S-N-RT": {
+            "area [cm^2]": 7670.0,
+            "link": "UMC-0020-101-X518_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 87.1
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 106.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 706.5
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.006
+          },
+          "ULP-0025-101-X518-S-N-RT": {
+            "area [cm^2]": 11212.0,
+            "link": "ULP-0025-101-X518_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 237.2
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 289.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1874.5
+              }
+            ],
+            "AX2": 0.0006,
+            "BX": 0.006
+          }
+        }
+      },
+      "RFB 400": {
+        "maximum_flow_rate": 400,
+        "element": {
+          "UMC-0010-121-X517-S-N-RT": {
+            "area [cm^2]": 9970.0,
+            "link": "UMC-0010-121-X517_12651_Dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 101.8
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 122.2
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 695.9
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.001
+          },
+          "ULP-0010-121-X517-S-N-RT": {
+            "area [cm^2]": 14018.0,
+            "link": "ULP-0010-121-X517_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 127.9
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 155.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 957.7
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.001
+          },
+          "UMC-0020-121-X517-S-N-RT": {
+            "area [cm^2]": 9970.0,
+            "link": "UMC-0020-121-X517_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 113.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 138.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 918.3
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.001
+          },
+          "ULP-0025-121-X517-S-N-RT": {
+            "area [cm^2]": 14018.0,
+            "link": "ULP-0025-121-X517_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 296.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 361.9
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 2342.8
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.001
+          }
+        }
+      },
+      "RFB 600": {
+        "maximum_flow_rate": 600,
+        "element": {
+          "UMC-0010-121-X523-S-N-RT": {
+            "area [cm^2]": 13840.0,
+            "link": "UMC-0010-121-X523_12651_Dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 141.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 169.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 966.0
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.001
+          },
+          "ULP-0010-121-X523-S-N-RT": {
+            "area [cm^2]": 19459.0,
+            "link": "ULP-0010-121-X523_13596_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 177.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 215.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1329.5
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.001
+          },
+          "UMC-0020-121-X523-S-N-RT": {
+            "area [cm^2]": 13840.0,
+            "link": "UMC-0020-121-X523_14848_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 157.3
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 192.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1274.8
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.001
+          },
+          "ULP-0025-121-X523-S-N-RT": {
+            "area [cm^2]": 19459.0,
+            "link": "ULP-0025-121-X523_14904_dp-Q-Formular.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1500,
+                "flow": 410.9
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 502.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 3251.9
+              }
+            ],
+            "AX2": 0.00015,
+            "BX": 0.001
+          }
+        }
+      },
+      "RFB 100": {
+        "maximum_flow_rate": 100,
+        "element": {
+          "ULP 0010-089-X510-Q-P-RT": {
+            "area [cm^2]": 2582.5339200000003,
+            "link": "ULP-0010-089-X510_dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 34.5
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 37.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 342.5
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          },
+          "UMC 0010-089-X510-S-N-RT": {
+            "area [cm^2]": 1772.3272,
+            "link": "UMC-0010-089-X510-Q-P-RT _dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 20.9
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 22.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 161.5
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          },
+          "ULP 0025-089-X510-Q-P-RT": {
+            "area [cm^2]": 2582.5339200000003,
+            "link": "ULP-0025-089-X510-Q-P-RT _dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 52.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 48.7
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 735.7
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          },
+          "UMC 0020-089-X510-S-N-RT": {
+            "area [cm^2]": 1772.3272,
+            "link": "UMC-0020-089-X510-Q-P-RT _dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 19.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 21.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 166.6
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          }
+        }
+      },
+      "RFB 155": {
+        "maximum_flow_rate": 155,
+        "element": {
+          "ULP 0010-089-X513-Q-P-RT": {
+            "area [cm^2]": 3731.8291200000003,
+            "link": "ULP-0010-089-X513-Q-P-RT _dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 50.2
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 52.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 442.2
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          },
+          "UMC 0010-089-X513-S-N-RT": {
+            "area [cm^2]": 2561.0592,
+            "link": "UMC-0010-089-X513_dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 31.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 32.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 219.5
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          },
+          "ULP 0025-089-X513-Q-P-RT": {
+            "area [cm^2]": 3731.8291200000003,
+            "link": "ULP-0025-089-X513-Q-P-RT _dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 68.6
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 76.3
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 860.4
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          },
+          "UMC 0020-089-X513-S-N-RT": {
+            "area [cm^2]": 2561.0592,
+            "link": "UMC-0020-089-X513-Q-P-RT _dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 28.6
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 31.0
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 236.0
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          }
+        }
+      },
+      "RFB 210": {
+        "maximum_flow_rate": 210,
+        "element": {
+          "ULP 0010-089-X516-Q-P-RT": {
+            "area [cm^2]": 4881.0,
+            "link": "ULP-0010-089-X516_dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 63.6
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 65.5
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 627.9
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          },
+          "UMC 0010-089-X516-S-N-RT": {
+            "area [cm^2]": 3350.0,
+            "link": "UMC-0010-089-X516_dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 38.0
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 40.4
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 340.1
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          },
+          "ULP 0025-089-X516-Q-P-RT": {
+            "area [cm^2]": 4881.0,
+            "link": "ULP-0025-089-X516-Q-P-RT _dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 95.7
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 99.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 1084.7
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          },
+          "UMC 0020-089-X516-S-N-RT": {
+            "area [cm^2]": 3350.0,
+            "link": "UMC-0020-089-X516-Q-P-RT _dp-Q_1500l_alle.pdf",
+            "data": [
+              {
+                "pressure": 3.0,
+                "viscosity": 1200,
+                "flow": 41.4
+              },
+              {
+                "pressure": 1.0,
+                "viscosity": 400,
+                "flow": 41.6
+              },
+              {
+                "pressure": 0.6,
+                "viscosity": 30,
+                "flow": 348.0
+              }
+            ],
+            "AX2": 4e-05,
+            "BX": 0.0004
+          }
+        }
+      }
+    }}}
+  }
+}

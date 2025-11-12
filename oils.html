@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fluid Property Calculator</title>
+<link rel="stylesheet" href="main.css">
+<style>
+.content{
+  width:70%;
+  margin: auto;
+  transition: box-shadow 0.2s ease;
+  padding: 20px;
+}
+
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* Center the fluid select */
+  .fluid-select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .fluid-select-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  #fluidSelect {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  /* Oil title */
+  #oilTitle {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 15px 0 20px;
+  }
+
+  select, button {
+    margin: 10px 0;
+    padding: 5px;
+  }
+#properties{
+  width:80%;
+  max-width: 800px;
+  margin: auto;
+}
+  table {
+      border-radius: 6px;
+
+    border-collapse: collapse;
+    margin: 10px auto;
+    width:100%;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 6px 8px;
+    text-align: right;
+
+  }
+  
+  table td:nth-child(even), 
+table th:nth-child(even){
+  background: var(--table-even);
+}
+table td:nth-child(odd), 
+table th:nth-child(odd){
+  background: var(--table-odd);
+}
+tr {
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+tr.updated {
+  /* transform: scale(1.1); */
+  color: var(--bg-second);
+}
+  .hidden {
+    display: none;
+  }
+
+</style>
+</head>
+<body>
+  <!-- Header / Navigation -->
+<div id="headerContainer"></div>
+
+
+  <!-- Main content (with padding) -->
+  <main>
+    <div class="content border">
+    <h1>Oil Property Search</h1>
+
+    <!-- Centered Fluid Selector -->
+    <div class="fluid-select-container">
+      <label for="fluidSelect">Select Fluid:</label>
+      <select id="fluidSelect">
+        <option value="">-- Select --</option>
+      </select>
+    </div>
+
+    <!-- Oil Title shows after selection -->
+    <div id="oilTitle" class="hidden"></div>
+
+    <div id="properties" class="hidden">
+      <p><strong>Density at 15°C:</strong> <span id="density"></span></p>
+
+      <h2>Raw Viscosity Data</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr><th>Temp (K)</th><th>Kinematic Viscosity (mm²/s)</th></tr>
+          </thead>
+          <tbody id="viscosityTableBody"></tbody>
+        </table>
+      </div>
+
+      <h2>Calculated Properties</h2>
+      <div>
+        <label for="col2Sel">Copy: Temperature (K) and </label>
+        <select id="col2Sel">
+          <option value="2">Kinematic Viscosity (mm²/s)</option>
+          <option value="3">Density (kg/m³)</option>
+          <option value="4">Dynamic Viscosity (Pa·s)</option>
+        </select>
+        <button id="copyBtn">Copy to Clipboard</button>
+      </div>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Temp (K)</th>
+              <th>Temp (°C)</th>
+              <th>Kinematic Viscosity (mm²/s)</th>
+              <th>Density (kg/m³)</th>
+              <th>Dynamic Viscosity (Pa·s)</th>
+            </tr>
+          </thead>
+          <tbody id="calculatedTableBody"></tbody>
+        </table>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <script src="getOilProperties.js"></script>
+    <script src="header.js"></script>
+  <script>loadHeader('headerContainer');</script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      await loadFluidData(); // make sure JSON is loaded
+
+      const fluidSelect = document.getElementById("fluidSelect");
+      const fluids = OilProps.getFluidNames();
+      fluids.forEach(f => {
+        const opt = document.createElement("option");
+        opt.value = f;
+        opt.textContent = f;
+        fluidSelect.appendChild(opt);
+      });
+
+      fluidSelect.addEventListener("change", () => {
+        const fluid = fluidSelect.value;
+        if (!fluid) return;
+        buildTables(fluid);
+
+        const oilTitle = document.getElementById("oilTitle");
+        oilTitle.textContent = fluid;
+        oilTitle.classList.remove("hidden");
+      });
+
+      document.getElementById("copyBtn").addEventListener("click", () => {
+        const colIdx = parseInt(document.getElementById("col2Sel").value, 10);
+        const rows = document.querySelectorAll("#calculatedTableBody tr");
+        let text = "";
+        rows.forEach(row => {
+          const cells = row.querySelectorAll("td");
+          text += cells[0].innerText + "\t" + cells[colIdx].innerText + "\n";
+        });
+        navigator.clipboard.writeText(text).then(() => {
+          alert("Copied to clipboard!");
+        });
+      });
+    });
+
+    function buildTables(name) {
+      document.getElementById("properties").classList.remove("hidden");
+
+      const density15 = OilProps.getDensityAtTemp(name, 288.15);
+      document.getElementById("density").textContent = isNaN(density15) ? "NaN" : density15.toFixed(2);
+
+      const kv = fluidData[name]?.["Kinematic Viscosity Limits"];
+      const rawBody = document.getElementById("viscosityTableBody");
+      rawBody.innerHTML = "";
+      if (kv) {
+        kv.forEach(row => {
+          const tr = document.createElement("tr");
+          tr.innerHTML = `<td>${row.temperature}</td><td>${row.kinematicViscosity.toFixed(3)}</td>`;
+          rawBody.appendChild(tr);
+                    tr.classList.add('updated');
+  setTimeout(() => tr.classList.remove('updated'), 300);
+        });
+      }
+
+      const calcBody = document.getElementById("calculatedTableBody");
+      calcBody.innerHTML = "";
+      for (let tC = -40; tC <= 100; tC++) {
+        const tK = tC + 273.15;
+        const dens = OilProps.getDensityAtTemp(name, tK);
+        const kinVisc = OilProps.getKinViscAtTemp(name, tK);
+        const dynVisc = OilProps.getDynViscAtTemp(name, tK);
+
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${tK.toFixed(2)}</td>
+          <td>${tC}</td>
+          <td>${isNaN(kinVisc) ? "NaN" : kinVisc.toFixed(3)}</td>
+          <td>${isNaN(dens) ? "NaN" : dens.toFixed(2)}</td>
+          <td>${dynVisc}</td>
+        `;
+        calcBody.appendChild(tr);
+          tr.classList.add('updated');
+  setTimeout(() => tr.classList.remove('updated'), 300);
+      }
+    }
+  </script>
+    <script>
+  // Wait for the page to fully load
+  window.addEventListener("load", () => {
+    const loader = document.getElementById("loading-screen");
+    loader.classList.add("fade-out");
+    setTimeout(() => loader.style.display = "none", 1000); // remove after fade
+  });
+</script>
+</body>
+</html>
